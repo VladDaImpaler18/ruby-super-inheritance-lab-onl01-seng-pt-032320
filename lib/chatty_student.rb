@@ -8,7 +8,7 @@ class ChattyStudent < Student
   
   
   def raise_hand
-    super.cycle(10)
+    (super) * 10
   end
   
 end
